@@ -1,5 +1,10 @@
 # Shinobi Bistrô – Cardápio Japonês Interativo
 
+Aplicativo Flutter desenvolvido por:
+
+- Marcos Paulo Barszcz Alves  
+- Byanca Prado Rosa Hamilko Chaves
+
 O aplicativo **"Shinobi Bistrô"** é uma solução moderna e visualmente elegante para a apresentação de um cardápio digital de restaurante japonês. Desenvolvido em Flutter com design dark premium, o app oferece aos usuários uma experiência fluida e prática para conhecer os pratos, selecionar quantidades e adicionar itens ao carrinho de pedidos.
 
 ## 🥢 Funcionalidades Principais
