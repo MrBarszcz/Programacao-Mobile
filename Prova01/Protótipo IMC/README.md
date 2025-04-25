@@ -13,6 +13,14 @@ Este aplicativo tem como objetivo calcular o IMC (Índice de Massa Corporal) par
 
 ---
 
+## 📁 Localização do Código
+
+O código principal da aplicação está localizado em:
+`lib/main.dart`
+Este arquivo contém a lógica de construção da interface e controle de estados do aplicativo, incluindo o cálculo de IMC e Z-IMC, seleção de tipo (adulto/criança), sexo e idade, além da exibição das classificações com base nos dados inseridos.
+
+---
+
 ## 🎨 Design e Tecnologias
 
 - Interface moderna em Flutter

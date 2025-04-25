@@ -408,8 +408,10 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                             color: Colors.grey[850],
                             borderRadius: BorderRadius.circular(8),
                           ),
+                          alignment: Alignment.centerLeft,
                           child: DropdownButtonHideUnderline(
                             child: DropdownButton<String>(
+                              isExpanded: true,
                               value: tipo,
                               dropdownColor: Colors.grey[850],
                               style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.bold),
@@ -429,8 +431,8 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                           ),
                         ),
                       ),
-                      const SizedBox(width: 16),
-                      if (tipo == "Criança")
+                      if (tipo == "Criança") ...[
+                        const SizedBox(width: 16, height: 20),
                         Expanded(
                           child: Container(
                             padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -438,8 +440,10 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                               color: Colors.grey[850],
                               borderRadius: BorderRadius.circular(8),
                             ),
+                            alignment: Alignment.centerLeft,
                             child: DropdownButtonHideUnderline(
                               child: DropdownButton<String>(
+                                isExpanded: true,
                                 value: sexo,
                                 dropdownColor: Colors.grey[850],
                                 style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.bold),
@@ -457,9 +461,10 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                             ),
                           ),
                         ),
+                      ]
                     ],
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 16),
                   TextField(
                     controller: pesoController,
                     keyboardType: TextInputType.number,
@@ -631,3 +636,4 @@ class OndaPainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
+
