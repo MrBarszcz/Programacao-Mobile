@@ -376,15 +376,23 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                   Center(
                     child: Column(
                       children: [
+                        // Quadrado verde com a imagem dentro
                         Container(
-                          width: 120,
-                          height: 120,
+                          width: 160,
+                          height: 180,
                           decoration: BoxDecoration(
                             color: Color(0xFF74ED50),
                             borderRadius: BorderRadius.circular(16),
                           ),
+                          child: Center(
+                            child: Image.asset(
+                              'assets/images/Imagem_Logo.png',
+                              width: 150, // ajuste conforme necessário
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 8),
+                        // Texto
                         const Text(
                           'CALCULADORA IMC',
                           style: TextStyle(
@@ -398,6 +406,7 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
                       ],
                     ),
                   ),
+                  // fim do quadrado
                   const SizedBox(height: 40),
                   Row(
                     children: [
