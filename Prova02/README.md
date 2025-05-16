@@ -1,5 +1,3 @@
-# Prova 2 - PDM
-
 # The Jogo - Aplicativo Flutter
 
 ## Autores
@@ -7,11 +5,13 @@
 - Byanca Prado Rosa Hamilko Chaves
 - Marcos Paulo Barszcz Alves
 
----
+
 
 ## Ideia
 
 Desenvolver um aplicativo Flutter intitulado "The Jogo", cujo objetivo é permitir que o usuário interaja com uma grade de botões numerados para encontrar um tesouro escondido.
+
+
 
 ## Descrição do Aplicativo
 
